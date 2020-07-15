@@ -1,0 +1,85 @@
+body{
+	background-color:"#1ac6ff";
+	padding: 0;
+	margin: 0;
+
+
+}
+.card{
+	background-color:white;
+	height: :100px;
+	width: 310px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 10px rgba(233,144,7,0.7);
+}
+.info{
+	
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+.photo{
+	height: 50%;
+	width: 100%;
+	background:url(aaa.jpg);
+	position:absolute;
+align-content: center;
+	bottom: 20;
+background-size: 100% 100%;
+border-radius: 20px;
+transition: 10s;
+}
+
+.name{
+	font-size: 35px;
+	color: teal;
+	position: absolute;
+	letter-spacing: 2px;
+	font-weight: 600;
+	top: 325px;
+}
+.profession{
+	font-size: 25px;
+position: absolute;
+top: 400px;
+color: brown;
+
+}
+.divider{
+	background-color: blue;
+	height: 2.5px;
+	width: 200px;
+	position: absolute;
+     top: 380px;
+}
+.bio{
+	position: absolute;
+     top: 450px;
+color: red;
+text-align: center;
+font-size: 18px;
+line-height: 28px;
+}
+button{
+	position:absolute;
+	bottom: 20px;
+	background-color: orange;
+	border: none;
+	font-size: 20px;
+	padding: 13px 25px;
+	color: grey;
+}
+
+.card:hover.photo{
+	transform: scale(0.5,0.35) translate(-650PX);
+	background-size: 100% 150%;
+	background-position: 0 -25px;
+	border-radius: 50%;
+
+}

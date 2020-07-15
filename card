@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>		
+<head>
+ <title>ANUSHA</title>
+</head></head>
+<style>
+ <body bgcolor="#1ac6ff" text=white> 
+
+.wrap{
+	width:100px;
+	margin:auto;
+	margin-top:100px;
+}
+.card{
+	box-shadow: 0 4px 8px 0;
+	width: 300px;
+text-align: center;
+margin: 10px;
+}
+</style>
+ 	<div cass ="wrap">
+	<div cass ="card">
+<img src="aaa.png" alt="aaa" style="width:100%">
+<I><h1><b> ANUSHA </b></h1></I>
+<hr> <br>
+<p> email:anushagogulamudi22@gmail.com</p>
+<p> job:unemployed</p>
+
+
+
+ </body>
+ </html>
